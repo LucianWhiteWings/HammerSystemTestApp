@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.HammerSystemApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/main_select</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/main_select</item>
+        <item name="colorSecondaryVariant">@color/main_select</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="bottomNavigationStyle">@color/bottom_nav_item_colors</item>
+        <item name="android:textColor">@color/black</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.HammerSystemApp.ActionBar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="collapsingToolbarLayoutStyle">@color/gray7B</item>
+        <item name="appBarLayoutStyle">@color/white</item>
+    </style>
+
+
+
+    <style name="ButtonStyle" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="background">@drawable/button_test</item>
+
+    </style>
+
+</resources>

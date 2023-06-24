@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HammerSystemApp</string>
+    <string name="title_menu">Меню</string>
+    <string name="title_profile">Профиль</string>
+    <string name="title_cart">Корзина</string>
+
+    <string-array name="cites">
+        <item>Москва</item>
+        <item>Санкт-Петербург</item>
+        <item>Нижний Новгород</item>
+    </string-array>
+</resources>
